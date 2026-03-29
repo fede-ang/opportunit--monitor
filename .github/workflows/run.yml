@@ -25,7 +25,7 @@ jobs:
           CHAT_ID: ${{ secrets.CHAT_ID }}
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
           GOOGLE_SHEET_NAME: "Opportunità master"
-        run: python main.py
+        run: python api/main.py
 
       - name: Salva offset
         run: |
