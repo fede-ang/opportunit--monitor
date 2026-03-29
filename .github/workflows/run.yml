@@ -1,4 +1,4 @@
-name: Bandi Manager
+name: Opportunità Monitor
 
 on:
   workflow_dispatch:
